@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberKartik</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main-container">
+            <div class="header">
+              <i class="fa-solid fa-list">
+
+              </i>
+                <div class="logo">
+                    <h2>CyberKartik</h2>
+                </div>
+                <ul class="pocket">
+                    <li class="alpha">
+                        <a href="#" class="chidl">Home</a>
+                    </li>
+                    <li class="alpha">
+                        <a href="#" class="chidl">Skills</a>
+                    </li>
+                    <li class="alpha">
+                        <a href="#" class="chidl">Projects</a>
+                    </li>
+                    <li class="alpha">
+                        <a href="#" class="chidl">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="portfolio">
+            <div class="left-box">
+              <div class="heading-box">
+                <div class="profile">
+                    <h1 class="target">Full Stack Developer</h1>
+                  <p class="para">
+                    Building digital experience that merge creativity with technology
+                     <br>
+                     Specializing in modern web development and cyber systems
+                 </p>
+                 <button>Let's Connect</button>
+                </div>
+              </div>
+            </div>
+            <div class="right-box">
+                 <div class="frame">
+                    <img src="../work/images/download (2).jpeg" alt="">
+                 </div>
+            </div>
+        </div>
+        <div class="body-fox-flow">
+            <h2 class="technica">
+                Technical Expertise
+            </h2>
+            <div class="jockey">
+                <div class="grid-1">
+                   <i class="fa fa-code"></i>
+                    <h3 class="developer">
+                    Frontend Development
+                   </h3>
+                <p class="para">
+                    React,Vite,HTML5,CSS,JavaScript
+                </p>
+                </div>
+                <div class="grid-1">
+                  <i class="fa-solid fa-server"></i>
+                   <h3 class="developer">
+                    Backend Development
+                   </h3>
+                <p class="para">
+                Nodejs,Python,MongoDB,PostreSQL
+                </p>
+                </div>
+                <div class="grid-1">
+                     <i class="fa-solid fa-paintbrush"></i>
+                   <h3 class="developer">
+                    UI/UX Design
+                   </h3>
+                <p class="para">
+                Figma,Adobe,XD,Prototyping,User Testing
+                </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p class="copyright">
+                @ 2025 CyberKartik.All rights reserved.
+            </p>
+            <ul class="focus">
+                <li class="social-media">
+                    <a href="#" class="icon">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-media">
+                    <a href="#" class="icon">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a> 
+                </li>
+                <li class="social-media">
+                    <a href="#" class="icon">
+                     <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </li>
+                <li class="social-media">
+                    <a href="#" class="icon">
+                     <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+            </ul>
+            <hr>
+        </div>
+    </div>
+<script>
+    var ul = document.querySelector(".pocket");
+    var li = document.querySelector(".fa-list");
+    var direction = "left";
+    li.addEventListener("click",()=>{
+       ul.classList.toggle("active");
+    });
+</script>
+</body>
+</html>
